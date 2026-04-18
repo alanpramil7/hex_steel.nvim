@@ -1,0 +1,40 @@
+-- Exact palette copied from the Helix `hex_steel` theme.
+-- Keep these values unchanged if the goal is parity with the source theme.
+local M = {
+  t1 = "#0e0e0d",
+  t2 = "#1d1e1b",
+  t3 = "#5b5555",
+  t4 = "#656869",
+  t5 = "#727b7c",
+  t6 = "#6e8789",
+  t7 = "#d85c60",
+  t8 = "#9bc1bb",
+  t9 = "#b5c5c5",
+  t10 = "#c3c3bd",
+  t11 = "#f78c5e",
+
+  highlight = "#f23672",
+  highlight_two = "#f69c3c",
+  highlight_three = "#d4d987",
+
+  selection = "#4a9aa6",
+  selection_fg = "#080a0b",
+
+  black = "#000000",
+  comment = "#654642",
+  comment_doc = "#234048",
+  hints = "#31353c",
+  ruler = "#222320",
+
+  error = "#ff4000",
+  warning = "#ffbf00",
+  display = "#42baff",
+  info = "#dad7d5",
+
+  diff_minus = "#ff4000",
+  diff_delta = "#0078bd",
+  diff_plus = "#c9d400",
+  diff_delta_moved = "#0048bd",
+}
+
+return M
