@@ -607,8 +607,20 @@ function M.groups()
     HarpoonNumberActive = h.jump_label,
     HarpoonNumberInactive = h.member,
 
-    LazyGitBorder = extend(h.window, { bg = bg(p.t1, transparent) }),
-    LazyGitFloat = h.popup,
+    LazyGitFloat = { fg = p.t10, bg = bg(p.t1, transparent) },
+    LazyGitBorder = { fg = p.t6, bg = bg(p.t1, transparent) },
+    LazyGitTitle = { fg = p.highlight_three, bg = bg(p.t1, transparent), bold = true },
+    LazyGitHeader = h.text_focus,
+    LazyGitCurrentFile = h.keyword_function,
+    LazyGitPath = h.member,
+    LazyGitBranch = h.namespace,
+    LazyGitSelectedLine = h.selection,
+    LazyGitStagedChanges = h.diff_add,
+    LazyGitUnstagedChanges = h.warning,
+    LazyGitUntrackedFiles = h.diff_add,
+    LazyGitDiffAdd = h.diff_add,
+    LazyGitDiffChange = h.diff_change,
+    LazyGitDiffDelete = h.diff_delete,
 
     SupermavenSuggestion = h.inlay_hint,
 
